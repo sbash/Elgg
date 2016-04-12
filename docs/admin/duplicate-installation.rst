@@ -168,6 +168,10 @@ Change the data directory
 .. code:: sql
 
    UPDATE `elgg_datalists` SET `value` = "/var/data/elgg_test/" WHERE `name` = "dataroot";
+   
+.. warning::
+
+   The dataroot may need to be /var/data/elgg_test/data/
 
 Change the site URL
 -------------------
